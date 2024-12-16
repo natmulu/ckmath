@@ -1,15 +1,10 @@
-# last
+# description
+This is forked from https://github.com/isaul32/ckeditor5-math
 
-This template should help get you started developing with Vue 3 in Vite.
+instead of raw tex editor. mathlive keyboard editor has been added. press Ctrl+M . you will find a button with a pencil icon.
+press it and enjoy.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
+Cant provide any description... it just works.
 ## Project Setup
 
 ```sh
@@ -20,10 +15,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
