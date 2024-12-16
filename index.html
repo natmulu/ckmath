@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/katex@0.13.5/dist/katex.min.css"
+        integrity="sha384-L+Gq2Cso/Y2x8fX4wausgiZT8z0QPZz7OqPuz4YqAycQJyrJT9NRLpjFBD6zlOia"
+        crossorigin="anonymous"
+    />
+    <script
+        src="https://cdn.jsdelivr.net/npm/katex@0.13.5/dist/katex.min.js"
+        integrity="sha384-z64WtjpyrKFsxox9eI4SI8eM9toXdoYeWb5Qh+8PO+eG54Bv9BZqf9xNhlcLf/sA"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/katex@0.13.5/dist/contrib/auto-render.min.js"
+        integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"
+        crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {'macros': {'\\test': '\\mathrel{\\char`≠}'}});"
+    ></script>
+  </head>
+  <body>
+      <div id="app"></div>
+
+    <script src="../node_modules/ckeditor5/build/ckeditor5-dll.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-editor-classic/build/editor-classic.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-code-block/build/code-block.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-essentials/build/essentials.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-basic-styles/build/basic-styles.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-heading/build/heading.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-autoformat/build/autoformat.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-block-quote/build/block-quote.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-image/build/image.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-link/build/link.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-indent/build/indent.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-media-embed/build/media-embed.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-list/build/list.js"></script>
+    <script src="../node_modules/@ckeditor/ckeditor5-table/build/table.js"></script>
+
+    <script src="../node_modules/@ckeditor/ckeditor5/build/math.js"></script>
+
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
