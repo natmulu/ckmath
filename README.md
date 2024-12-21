@@ -6,14 +6,18 @@ instead of raw tex editor. mathlive keyboard editor has been added. press Ctrl+M
 press it and enjoy.
 
 Cant provide any description... it just works.
+## Screenshot
+
+![alt text](https://github.com/natmulu/ckmath/blob/main/image.png?raw=true)
+
+
 ## Project Setup
 
 ```sh
 npm install
 ```
-
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn start
 ```
